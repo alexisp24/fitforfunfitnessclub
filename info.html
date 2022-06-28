@@ -1,0 +1,108 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <!--  Assignment: Fit For Fun Fitness
+          Author: Alexis Pearson
+          Date: 6-24-2022
+
+          Filename: info.html
+    -->
+  <meta charset="utf-8">
+  <title>Sign Up</title>
+  <link href="styles.css" rel="stylesheet">
+</head>
+
+<body>
+  <nav>
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="classes.html">Classes We Offer</a></li>
+      <li><a href="info.html">Sign Up For A Class</a></li>
+    </ul>
+  </nav>
+  <form method="get" action="thankyou-1.html">
+    <fieldset>
+      <legend>Genral Infomation</legend>
+      <label for="fname">
+        First Name:
+        <input type="text" id="fname" name="fname" required placeholder="First Name">
+      </label>
+      <label for="lname">
+        Last Name:
+        <input type="text" id="lname" name="lname" required placeholder="Last Name">
+      </label>
+      <label for="email">
+        Email:
+        <input type="text" id="email" name="email" required placeholder="Email">
+      </label>
+      <label for="pnumber">
+        Phone Number:
+        <input type="text" id="pnumber" name="pnumber" required placeholder="Phone Number">
+      </label>
+    </fieldset>
+    <fieldset>
+      <legend>Best Way To Reach You</legend>
+      <label for="contact">
+        <select id="contact" name="contact">
+          <option value="Email">Email</option>
+          <option value="Phone">Phone</option>
+          <option value="Owl">Owl</option>
+          <option value="Letter">Letter</option>
+        </select>
+      </label>
+    </fieldset>
+    <fieldset>
+      <legend>Classes You Want To Take</legend>
+      <label for="crosst">
+        Cross Training:
+        <input type="checkbox" id="crosst" name="cross traning" value="yes">
+      </label>
+      <label for="sprint">
+        Sprint
+        <input type="checkbox" id="sprint" name="sprint" value="yes">
+      </label>
+      <label for="bp">
+        BodyPump
+        <input type="checkbox" id="bp" name="bodypump" value="yes">
+      </label>
+      <label for="act">
+        Advanced Cross Training
+        <input type="checkbox" id="act" name="advanced cross training" value="yes">
+      </label>
+      <label for="mt">
+        MixxedFit
+        <input type="checkbox" id="mt" name="mixxedFit" value="yes">
+      </label>
+      <label for="spin">
+        Spin
+        <input type="checkbox" id="spin" name="spin" value="yes">
+      </label>
+      <label for="bc">
+        BodyCombat
+        <input type="checkbox" id="bc" name="BodyCombat" value="yes">
+      </label>
+      <label for="si">
+        Step Interval
+        <input type="checkbox" id="si" name="step interval" value="yes">
+      </label>
+      <label for="z">
+        Zumba
+        <input type="checkbox" id="z" name="zumba" value="yes">
+      </label>
+    </fieldset>
+    <fieldset>
+      <label for="am">
+        Am
+        <input type="radio" id="am" name="time" value="am">
+      </label>
+      <label for="pm">
+        Pm
+        <input type="radio" id="pm" name="time" value="pm">
+      </label>
+    </fieldset>
+    <input type="submit" name="submit" value="submit">
+  </form>
+</body>
+
+</html>

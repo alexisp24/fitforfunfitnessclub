@@ -1,0 +1,99 @@
+/*
+      Assignment: Fit For Fun Fitness
+      Author: Alexis Pearson
+      Date: 6-24-2022
+
+      Filename: styels.classes
+      */
+html {
+  background-color: azure;
+}
+
+h1 {
+  color: darkcyan;
+}
+
+h2 {
+  color: darkcyan;
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+p {
+  text-align: center;
+}
+
+.first {
+  font-size: 20px;
+  color: darkcyan;
+}
+
+.two {
+  font-size: 20px;
+  color: darkcyan;
+}
+
+table {
+  border: 3px solid aquamarine;
+  border-collapse: collapse;
+  column-width: 100px
+}
+
+th {
+  border: 3px solid aquamarine;
+  text-align: center;
+  color: black;
+}
+
+td {
+  border: 3px solid aquamarine;
+  text-align: center;
+  color: darkblue;
+  font-size: .9em
+}
+
+li {
+  color: white;
+  border: dotted black;
+  background: grey;
+  list-style-type: none;
+  display: inline-block;
+  padding: 15px;
+}
+
+a {
+  display: block;
+  padding: 8px;
+}
+
+a:link {
+  color: lightblue;
+  text-decoration: none;
+}
+
+a:visited {
+  color: black;
+  text-decoration: none;
+}
+
+a:hover {
+  color: white;
+  text-decoration: underline;
+}
+
+footer {
+  background-color: grey;
+  color: white;
+}
+
+footer a {
+  color: white;
+  display: inline-block;
+}
+.head{
+  font-size: 20px;
+}
